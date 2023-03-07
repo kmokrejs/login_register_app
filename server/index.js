@@ -10,7 +10,7 @@ app.use(cors())
 const db = mysql.createConnection({
     user: "root",
     host: "localhost",
-    password: "sqlpass",
+    password: "password to datbase",
     database: "loginsystem",
 })
 
